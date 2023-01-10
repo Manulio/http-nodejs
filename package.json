@@ -1,10 +1,11 @@
 {
-  "name": "http-nodejs",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Aiden Bai",
-  "license": "MIT",
-  "scripts": {
-    "start": "node server.mjs"
-  }
+	"name": "http-nodejs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Manuel Pallares",
+	"license": "MIT",
+	"scripts": {
+		"start": "node server.mjs",
+		"express": "^4.18.2"
+	}
 }
