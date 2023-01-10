@@ -1,11 +1,24 @@
 {
-	"name": "http-nodejs",
-	"version": "1.0.0",
-	"main": "index.js",
-	"author": "Manuel Pallares",
-	"license": "MIT",
-	"scripts": {
-		"start": "node server.mjs",
-		"express": "^4.18.2"
-	}
+  "name": "http-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Manuel Pallares",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.mjs",
+    "express": "^4.18.2"
+  },
+  "description": "---\r title: Node HTTP Module\r description: A HTTP module server\r tags:\r   - http\r   - nodejs\r   - javascript\r ---",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manulio/http-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Manulio/http-nodejs/issues"
+  },
+  "homepage": "https://github.com/Manulio/http-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
 }
